@@ -2,11 +2,9 @@
 # copyright notices and license terms.
 from trytond.model import ModelView, ModelSQL, fields
 from trytond.pool import PoolMeta
+from trytond.modules.product.product import STATES, DEPENDS
 
 __all__ = ['Group', 'GroupTemplate', 'Template']
-__metaclass__ = PoolMeta
-
-from trytond.modules.product.product import STATES, DEPENDS
 
 
 class Group(ModelSQL, ModelView):
@@ -25,6 +23,7 @@ class GroupTemplate(ModelSQL):
 
 
 class Template:
+    __metaclass__ = PoolMeta
     __name__ = 'product.template'
 
     groups = fields.Many2Many('product.group-product.template', 'template',
