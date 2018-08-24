@@ -22,8 +22,7 @@ class GroupTemplate(ModelSQL):
         select=True, ondelete='CASCADE')
 
 
-class Template:
-    __metaclass__ = PoolMeta
+class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
 
     groups = fields.Many2Many('product.group-product.template', 'template',
