@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -12,23 +12,23 @@ msgstr "Usuari de creació"
 
 msgctxt "field:product.group,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:product.group,name:"
 msgid "Name"
 msgstr "Nom"
 
 msgctxt "field:product.group,rec_name:"
-msgid "Name"
+msgid "Record Name"
 msgstr "Nom"
 
 msgctxt "field:product.group,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data de modificación"
 
 msgctxt "field:product.group,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr "Usuari de modificació"
 
 msgctxt "field:product.group-product.template,create_date:"
 msgid "Create Date"
@@ -44,10 +44,10 @@ msgstr "Grup"
 
 msgctxt "field:product.group-product.template,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:product.group-product.template,rec_name:"
-msgid "Name"
+msgid "Record Name"
 msgstr "Nom"
 
 msgctxt "field:product.group-product.template,template:"
@@ -56,23 +56,23 @@ msgstr "Plantilla"
 
 msgctxt "field:product.group-product.template,write_date:"
 msgid "Write Date"
-msgstr "Data modificación"
+msgstr "Data de modificación"
 
 msgctxt "field:product.group-product.template,write_uid:"
 msgid "Write User"
-msgstr "Usuari modificació"
+msgstr "Usuari de modificació"
 
 msgctxt "field:product.template,groups:"
 msgid "Groups"
 msgstr "Grups"
 
 msgctxt "model:ir.action,name:act_product_group"
-msgid "Group"
-msgstr "Grup"
+msgid "Groups"
+msgstr "Grups"
 
 msgctxt "model:ir.ui.menu,name:menu_product_group"
-msgid "Group"
-msgstr "Grup"
+msgid "Groups"
+msgstr "Grups"
 
 msgctxt "model:product.group,name:"
 msgid "Group"
