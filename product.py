@@ -16,9 +16,9 @@ class GroupTemplate(ModelSQL):
     'Group - Template'
     __name__ = 'product.group-product.template'
     group = fields.Many2One('product.group', 'Group', required=True,
-        select=True, ondelete='CASCADE')
+        ondelete='CASCADE')
     template = fields.Many2One('product.template', 'Template', required=True,
-        select=True, ondelete='CASCADE')
+        ondelete='CASCADE')
 
 
 class Template(metaclass=PoolMeta):
