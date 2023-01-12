@@ -25,3 +25,7 @@ class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
     groups = fields.Many2Many('product.group-product.template', 'template',
         'group', 'Groups')
+
+
+class Product(metaclass=PoolMeta):
+    __name__ = 'product.product'

@@ -9,4 +9,5 @@ def register():
         product.Group,
         product.GroupTemplate,
         product.Template,
+        product.Product,
         module='product_groups', type_='model')
